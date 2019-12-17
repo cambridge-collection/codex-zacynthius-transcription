@@ -1,0 +1,38 @@
+definitions:
+  deployment-vars: &deployment-vars
+    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+    AWS_DEFAULT_REGION: eu-west-1
+    LOCAL_PATH: dist
+
+  steps:
+    - step: &prepare
+        name: Prepare files for publishing
+        image: python:3.8.0-buster
+        script:
+          - make build
+        artifacts:
+          - dist/**
+
+pipelines:
+  branches:
+    master:
+      - step: *prepare
+      - step:
+          name: Deploy to staging
+          deployment: Staging
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.3.8
+              variables:
+                <<: *deployment-vars
+                S3_BUCKET: staging.codex-zacynthius-transcription.cudl.lib.cam.ac.uk
+    production:
+      - step: *prepare
+      - step:
+          name: Deploy to production
+          deployment: Production
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.3.8
+              variables:
+                <<: *deployment-vars
+                S3_BUCKET: codex-zacynthius-transcription.cudl.lib.cam.ac.uk
