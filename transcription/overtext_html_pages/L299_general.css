@@ -1,0 +1,265 @@
+@font-face {
+  font-family: Gentium;
+  src: url(GentiumPlus-R.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Gentium;
+  font-size: 16px;
+}
+
+.page {
+  width: 380px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: oldlace;
+}
+
+.verso {
+  padding-left: 150px;
+  padding-right: 50px;
+}
+
+.recto {
+  padding-left: 50px;
+  padding-right: 150px;
+}
+
+
+.tooltip_templates {
+  display: none;
+}
+
+.versenum {
+  display: inline-block;
+  vertical-align: super;
+  font-size: 0.6em;
+  font-family: Gentium;
+  margin-left: 3px;
+
+}
+
+.verso .lineleft, .verso .margin-lineleft {
+  float: left;
+  margin-left: -70px;
+}
+
+.recto .lineleft, .recto .margin-lineleft {
+  float: left;
+  margin-left: -10px;
+}
+
+.rightjust {
+  display: inline-block;
+  text-align: right;
+  width: 80%;
+}
+
+.center {
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+}
+
+.verso span.margin-lineleft.center, .verso span.margin-pageleft {
+  float: left;
+  margin-left: -90px;
+  display: inline;
+  text-align: inherit;
+  width: inherit;
+}
+
+.verso span.margin-pageleft.right {
+  float: left;
+  margin-left: -20px;
+  display: inline;
+  text-align: inherit;
+  width: inherit;
+}
+
+.verso span.margin-pageleft.left {
+  float: left;
+  margin-left: -130px;
+  display: inline;
+  text-align: inherit;
+  width: inherit;
+}
+
+.recto span.margin-lineleft.center, .recto span.margin-pageleft {
+  float: left;
+  margin-left: -40px;
+  display: inline;
+  text-align: inherit;
+  width: inherit;
+}
+
+
+
+span.indent {
+  margin-left: 30px;
+}
+
+.verso span.margin-lineleft.left {
+  float: left;
+  margin-left: -140px;
+  display: inline;
+  text-align: inherit;
+  width: inherit;
+
+}
+
+.verso span.margin-lineleft.right {
+  float: left;
+  margin-left: -50px;
+  display: inline;
+  text-align: inherit;
+  width: inherit;
+
+}
+
+span.margin-pagetop-center {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+}
+
+
+span.margin-pagetop-right.pagenumber.ink {
+  top: 20px;
+  position: absolute;
+  left: 450px;
+}
+
+span.margin-pagetop-right.pagenumber.pencil {
+  top: 30px;
+  position: absolute;
+  left: 430px; */
+  color: dimgray;
+}
+
+.recto span.margin-pageright.left {
+  width: 70px;
+  float: right;
+  margin-right: -40px;
+}
+
+.recto span.margin-pageright.center {
+  width: 100px;
+  float: right;
+  margin-right: -50px;
+}
+
+.recto span.margin-pageright.right {
+  width: 100px;
+  float: right;
+  margin-right: -70px;
+}
+
+span.quiresig.margin-pagetop {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+}
+
+span.quiresig.margin-pagebottom {
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.recto span.margin-lineright.left {
+  width: 50px;
+  float: right;
+  margin-right: -50px;
+}
+
+.recto span.margin-lineright.center {
+  width: 50px;
+  float: right;
+  margin-right: -70px;
+}
+
+.recto span.margin-lineright {
+  width: 50px;
+  float: right;
+  margin-right: -70px;
+}
+
+span.linebreak {
+  font-family: Gentium;
+}
+
+.hang {
+  margin-left: -10px;
+}
+
+.above {
+  vertical-align: super;
+}
+
+
+
+.cap {
+  font-size: 30px;
+}
+
+
+.overline .rubric {
+  text-decoration: overline;
+  color: red;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.overline .supplied, .overline .illegible {
+    text-decoration: overline;
+    color: grey;
+}
+
+.illegible, .supplied, .unclear {
+  color: grey;
+}
+
+.rubric {
+  color: red;
+}
+
+.original {
+  color: blue;
+}
+
+.right {
+  float: right;
+}
+
+span.lectionRef {
+  color: green;
+}
+
+span.editorial-note {
+  font-size: 0.8em;
+  font-family: Gentium;
+  color: blue;
+}
+
+span.general-abbreviation-marker, span.pagenumber {
+  font-family: Gentium;
+}
+
+.tooltipster-default .tooltipster-content {
+  font-family: Gentium;
+}
+
+span.tooltip-en {
+  font-family: Gentium;
+}
+
+span.tooltip-el {
+  font-family: Decker;
+}

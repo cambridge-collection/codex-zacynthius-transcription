@@ -1,0 +1,382 @@
+#P81v span.displaced-below.rightjust, #P103v span.displaced-below.rightjust,
+#P148v span.displaced-below.rightjust, #P160v span.displaced-below.rightjust,
+#P172r span.displaced-below.rightjust, #P173v span.displaced-below.rightjust {
+  width: 60%;
+}
+
+#P155v span.displaced-below.rightjust, #P169v span.displaced-below.rightjust {
+  width: 65%;
+}
+
+#P117v span.displaced-below.rightjust, #P159v span.displaced-below.rightjust {
+  width: 55%;
+}
+
+
+#P3v span.displaced-below.rightjust, #P6v span.displaced-below.rightjust,
+#P28r span.displaced-below.rightjust, #P29r span.displaced-below.rightjust,
+#P106v span.displaced-below.rightjust, #P118v span.displaced-below.rightjust,
+#P163r span.displaced-below.rightjust {
+  width: 70%;
+}
+
+#P17r span.displaced-below.rightjust, #P154r span.displaced-below.rightjust,
+#P160r span.displaced-below.rightjust  {
+  width: 90%;
+}
+
+#P3v span.margin-pagebottom.center, #P27v span.margin-pagebottom.center,
+#P143r span.center {
+  width: 50%;
+}
+
+#P57r span.margin-pagebottom.center {
+  width: 100%;
+  font-size: 14px;
+}
+
+#P108r span.margin-pagebottom {
+  font-size: 14px;
+}
+
+#P109r span.margin-pagebottom.lectionarytitle {
+  font-size: 14px;
+  margin-left: -40px;
+  padding-right: -50px;
+}
+
+#P109r span.margin-pagebottom.center {
+  font-size: 16px;
+  width: 80%;
+}
+
+#P172r span.margin-pagebottom.center {
+  width: 60%;
+}
+
+#P159v span.margin-pagebottom.center {
+  width: 50%;
+}
+
+#P117r span.margin-pagetop {
+  font-size: 14px;
+  width: 120%;
+}
+
+#P117r span.margin-pageright.center {
+  width: 140px;
+  margin-left: -30px;
+}
+
+#P117r span.displaced-below.rightjust {
+  width: 100%;
+}
+
+#P117r span.margin-pagetop-right.pagenumber.pencil {
+  top: 80px;
+  position: absolute;
+  left: 380px; */
+  color: dimgray;
+}
+
+#P60r span.margin-pagebottom.center, #P63r span.margin-pagebottom.center {
+  font-size: 14px;
+  width: 120%;
+}
+
+#P136r span.margin-pagebottom, #P151v span.margin-pagebottom {
+  font-size: 14px;
+}
+
+#P19r span.margin-pagebottom.center {
+  width: 90%;
+}
+
+#P160r span.margin-pagebottom.center {
+  width: 60%;
+}
+
+#P167r span.margin-pagebottom.center {
+  width: 30%;
+}
+
+#P130r span.margin-pagebottom.right, #P138r span.margin-pagebottom.center {
+  width: 60%;
+}
+
+#P77v span.rightjust {
+  width: 60%;
+}
+
+#P110v span.margin-pagetop.scribalnote {
+  font-size: 14px;
+  margin-left: -35px;
+}
+
+#P17v span.margin-pagetop.center, #P117v span.margin-pagetop.center {
+  width: 50%;
+}
+
+#P84v span.center, #P104v span.margin-pagetop.center, #P104v span.margin-pagebottom.center,
+#P163v span.margin-pagetop.center {
+  width: 60%;
+}
+
+#P110v span.margin-pagetop.center {
+  width: 70%;
+}
+
+
+#P84v span.margin-pagetop.center {
+  width: 80%;
+}
+
+#P18r span.margin-pagetop.center {
+  width: 80%;
+}
+
+#P31r span.margin-pagetop.center, #P62r span.margin-pagetop.center,
+#P63v span.margin-pagetop.center {
+  width: 60%;
+}
+
+#P34v span.margin-pagetop.center {
+  width: 130%;
+}
+
+#P65r span.margin-pagetop.right {
+  width: 50%;
+}
+
+#P18r span.center, #P43v span.center, #P148v span.center {
+  width: 50%;
+}
+
+#P105v span.center, #P109r span.center, #P121r span.center, #P147r span.center,
+#P150v span.center, #P153r span.center, #P155r span.center, #P157r span.center,
+#P166v span.center, #P168v span.center, #P173v span.center, #P176v span.center {
+  width: 60%;
+}
+
+#P81v span.center, #P84r span.center,  #P113r span.center, #P146r span.center  {
+  width: 70%;
+}
+
+#P21r span.margin-pagetop.center {
+  width: 90%;
+}
+
+#P21r span.center, #P34r span.center, #P46v span.center, #P76v span.center,
+#P86v span.center, #P92r span.center, #P144v span.center, #P159r span.center {
+  width: 60%;
+}
+
+#P39r span.center {
+  width: 90%;
+}
+
+#P4r.page, #P5r.page, #P8r.page, #P10r.page, #P17r.page, #P23r.page, #P27r.page,
+#P28r.page, #P31r.page, #P34r.page, #P39r.page, #P44r.page, #P45r.page, #P47r.page,
+#P48r.page, #P54r.page, #P56r.page, #P57r.page, #P59r.page, #P60r.page, #P63r.page,
+#P69r.page, #P71r.page, #P77r.page, #P78r.page, #P81r.page, #P87r.page, #P88r.page,
+#P89r.page, #P108r.page, #P117r.page, #P119r.page, #P127r.page, #P135r.page  {
+  width: 400px;
+  padding-right: 100px;
+}
+
+#P19r.page, #P65r.page, #P73r.page, #P76r.page, #P93r.page, #P94r.page, #P102r.page,
+#P103r.page, #P113r.page, #P143r.page, #P145r.page, #P146r.page,
+#P147r.page, #P151r.page, #P152r.page, #P171r.page, #P173r.page  {
+  width: 450px;
+  padding-right: 100px;
+}
+
+#P18r.page, #P21r.page, #P92r.page, #P109r.page, #P121r.page, #P138r.page, #P148r.page,
+#P149r.page, #P153r.page, #P154r.page, #P155r.page, #P157r.page, #P159r.page,
+#P163r.page, #P164r.page, #P165r.page, #P166r.page, #P167r.page, #P169r.page,
+#P176r.page   {
+  width: 500px;
+  padding-right: 30px;
+}
+
+#P168r.page, #P175r.page {
+  width: 550px;
+  padding-right: 30px;
+}
+
+#P62r.page, #P160r.page {
+  width: 550px;
+  padding-right: 100px;
+}
+
+#P172r.page {
+  width: 600px;
+  padding-right: 60px;
+}
+
+#P14r.page {
+  padding-left: 70px;
+}
+
+#P14r .margin-lineleft.center {
+    margin-left: -60px;
+}
+
+
+#P4v.page, #P5v.page, #P6v.page, #P9v.page, #P17v.page, #P43v.page, #P46v.page,
+#P48v.page, #P52v.page, #P56v.page, #P63v.page, #P70v.page, #P76v.page, #P77v.page,
+#P81v.page, #P84v.page, #P86v.page, #P105v.page, #P110v.page, #P114v.page,
+#P117v.page, #P133v.page, #P144v.page, #P145v.page, #P146v.page, #P148v.page,
+#P149v.page, #P150v.page, #P151v.page, #P158v.page, #P161v.page, #P163v.page,
+#P165v.page, #P166v.page, #P167v.page, #P168v.page, #P171v.page, #P174v.page,
+#P175v.page, #P176v.page {
+  width: 500px;
+  padding-left: 100px;
+}
+
+#P56v.page, #P152v.page, #P153v.page, #P154v.page, #P172v.page {
+  width: 520px;
+  padding-left: 100px;
+}
+
+#P104v.page, #P159v.page {
+  width: 500px;
+  padding-left: 150px;
+}
+
+#P82v.page {
+  width: 670px;
+  padding-left: 70px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+ #P28v.page, #P44v.page {
+   width: 400px;
+   padding-left: 150px;
+ }
+
+#P8v.page {
+  width: 440px;
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+#P6r .right, #P8v .right  {
+  margin-right: 60px;
+}
+
+
+#P8r.page span.margin-lineright.center {
+  width: 20%;
+  margin-right: -40px;
+}
+
+#P62r.page span.margin-lineright.center {
+  width: 20%;
+  margin-right: -10px;
+}
+
+#P172r.page span.margin-lineright.center {
+  margin-right: -10px;
+}
+
+
+#P24v.verso span.margin-lineleft.right, #P40v.verso span.margin-pageleft.right {
+  margin-left: -70px;
+}
+
+
+#P28v.page span.margin-pageleft.left, #P122v.page span.margin-pageleft.left {
+  margin-left: -130px;
+}
+
+#P159v.page span.margin-pageleft.left {
+  margin-left: -145px;
+  font-size: 14px;
+}
+
+
+
+#P122v.page span.margin-pageleft.right {
+  margin-left: -90px;
+}
+
+#P103v.page span.margin-pageleft.center, #P130v.page span.margin-pageleft.center {
+  margin-left: -130px;
+}
+
+#P104v.page span.margin-pageleft.center {
+  margin-left: -145px;
+}
+
+#P169r.page span.margin-pageleft.center {
+  font-size: 12px;
+  margin-left: -45px;
+}
+
+
+
+
+#P28v.page span.margin-pageleft.right, #P37v.page span.margin-pageleft.right,
+#P46v.page span.margin-pageleft.right, #P56v.page span.margin-pageleft.right,
+#P75v.page span.margin-pageleft.right, #P77v.page span.margin-pageleft.right,
+#P81v.page span.margin-pageleft.right, #P93v.page span.margin-pageleft.right,
+#P96v.page span.margin-pageleft.right, #P118v.page span.margin-pageleft.right,
+#P128v.page span.margin-pageleft.right, #P137v.page span.margin-pageleft.right  {
+  margin-left: -50px;
+}
+
+#P104r.page .lineleft {
+  margin-left: -30px;
+}
+
+#P146r.page span.margin-lineleft, #P147r.page span.margin-lineleft {
+  margin-left: -30px;
+}
+
+#P153r.page span.margin-lineleft.left, #P155r.page span.margin-lineleft.left,
+#P159r.page span.margin-lineleft.left {
+  margin-left: -40px;
+}
+
+#P156r.page span.margin-pageleft.left {
+  margin-left: -45px;
+}
+
+ #P149r.page span.margin-lineleft.right, #P154r.page span.margin-lineleft.right,
+ #P173r.page span.margin-lineleft.right, #P175r.page span.margin-lineleft.right {
+   margin-left: -40px;
+ }
+
+ #P171r.page span.margin-pageright.center {
+   margin-right: -105px;
+ }
+
+ #P171r.page span.margin-pageright.left {
+   margin-right: -105px;
+   width: 120px;
+ }
+
+#P130r.page span.margin-pageright.center {
+  margin-right: -60px;
+}
+
+#P156r.page span.margin-pageright.center, #P170r.page span.margin-pageright.center {
+    margin-right: -70px;
+}
+
+
+
+#P160r.page span.margin-pageright.center {
+  margin-right: -10px;
+}
+
+#P164r.page span.margin-pageright.center {
+  margin-right: 20px;
+}
+
+
+#P130r span.above {
+  font-size: 12px;
+}

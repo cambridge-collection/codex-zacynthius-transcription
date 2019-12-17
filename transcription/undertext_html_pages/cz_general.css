@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Decker;
+  src: url(GFSDecker.otf);
+}
+
+@font-face {
+  font-family: Gentium;
+  src: url(GentiumPlus-R.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Decker;
+  font-size: 16px;
+}
+
+.coltop {
+  font-size: 16px;
+}
+
+
+.tooltip_templates {
+  display: none;
+}
+
+.versenum {
+  display: inline-block;
+  vertical-align: super;
+  font-size: 0.6em;
+  font-family: Gentium;
+  margin-left: 3px;
+
+}
+
+.lineleft, .colleft {
+  float: left;
+  margin-left: -30px;
+  line-height: 0.9em;
+}
+
+.left-col .colleft .chapternumber {
+  float: left;
+  margin-left: -15px; /*relative to the -40 already added for .colleft*/
+}
+
+span.pageleft {
+  position: absolute;
+  left: 20px;
+  line-height: 0.9em;
+}
+
+span.pageright {
+  position: absolute;
+  left: 650px;
+}
+
+span.lineright {
+  position: absolute;
+  left: 650px;
+}
+
+span.linebreak {
+  font-family: Gentium;
+}
+
+.hang {
+  margin-left: -10px;
+}
+
+.above {
+  vertical-align: super;
+}
+
+.rightjust {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+.cap {
+  font-size: 30px;
+}
+
+.biblical_text .sectionnumber, .biblical_text .chapternumber {
+  font-size: 16px;
+}
+
+.chapternumber .rubric, .overline .rubric, .sectionnumber .rubric, .vaticannumber .rubric {
+  text-decoration: overline;
+  color: red;
+}
+
+.chapternumber, .overline, .sectionnumber, .vaticannumber {
+  text-decoration: overline;
+}
+
+.overline .supplied, .overline .illegible, .vaticannumber .supplied, .sectionnumber .supplied, .chapternumber .supplied {
+    text-decoration: overline;
+    color: grey;
+}
+
+.illegible, .supplied, .unclear {
+  color: grey;
+}
+
+.rubric {
+  color: red;
+}
+
+.original {
+  color: blue;
+}
+
+span.editorial-note {
+  font-size: 0.8em;
+  font-family: Gentium;
+  color: blue;
+}
+
+span.comment_source {
+  font-size: 0.8em;
+  font-family: Gentium;
+  color: green;
+}
+
+span.general-abbreviation-marker, span.pagenumber {
+  font-family: Gentium;
+}
+
+.tooltipster-default .tooltipster-content {
+  font-family: Gentium;
+}
+
+span.tooltip-en {
+  font-family: Gentium;
+}
+
+span.tooltip-el {
+  font-family: Decker;
+}
