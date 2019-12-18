@@ -48,7 +48,7 @@ $ sudo make publish-production
 
 ## Docker image
 
-A Docker container image is automatically build from the production branch and pushed to docker hub with the name [`camdl/codex-zacynthius-transcription`][dh].
+A Docker container image is automatically built from the production branch and pushed to docker hub with the name [`camdl/codex-zacynthius-transcription`][dh].
 
 ### Image tags
 
