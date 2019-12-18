@@ -6,18 +6,15 @@ Currently we have static HTML transcriptions for all the pages. In the future we
 
 ## Hosting
 
-The transcriptions are hosted at:
-
-* Production: [codex-zacynthius-transcription.cudl.lib.cam.ac.uk][production]
-* Staging: [staging.codex-zacynthius-transcription.cudl.lib.cam.ac.uk][staging]
-
-[production]: http://codex-zacynthius-transcription.cudl.lib.cam.ac.uk/
-[staging]: http://staging.codex-zacynthius-transcription.cudl.lib.cam.ac.uk/
-
 The sites are hosted as static sites via public AWS S3 buckets:
 
 * Production: http://codex-zacynthius-transcription.cudl.lib.cam.ac.uk.s3-website.eu-west-2.amazonaws.com/
 * Staging: http://staging.codex-zacynthius-transcription.cudl.lib.cam.ac.uk.s3-website.eu-west-2.amazonaws.com/
+
+These S3 buckets are aliased with CUDL subdomains, but they won't work through modern browsers, because cudl.lib.cam.ac.uk uses [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security).
+
+* Production: `http://codex-zacynthius-transcription.cudl.lib.cam.ac.uk`
+* Staging: `http://staging.codex-zacynthius-transcription.cudl.lib.cam.ac.uk`
 
 ## Publishing
 
