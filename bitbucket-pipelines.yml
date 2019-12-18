@@ -28,11 +28,21 @@ pipelines:
                 S3_BUCKET: staging.codex-zacynthius-transcription.cudl.lib.cam.ac.uk
     production:
       - step: *prepare
-      - step:
-          name: Deploy to production
-          deployment: Production
-          script:
-            - pipe: atlassian/aws-s3-deploy:0.3.8
-              variables:
-                <<: *deployment-vars
-                S3_BUCKET: codex-zacynthius-transcription.cudl.lib.cam.ac.uk
+      - parallel:
+          - step:
+              name: Deploy to production
+              deployment: Production
+              script:
+                - pipe: atlassian/aws-s3-deploy:0.3.8
+                  variables:
+                    <<: *deployment-vars
+                    S3_BUCKET: codex-zacynthius-transcription.cudl.lib.cam.ac.uk
+          - step:
+              name: Publish to Docker Hub
+              deployment: Docker Hub
+              services:
+                - docker
+              script:
+                - docker login --username $DOCKER_USERNAME --password $DOCKER_PASSWORD
+                - make build-docker-image
+                - make push-docker-image

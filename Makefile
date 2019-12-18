@@ -4,6 +4,8 @@ else
 	aws_dryrun :=
 endif
 
+docker_version_tag := $(shell git rev-parse --short HEAD)
+
 default:
 
 dist:
@@ -40,5 +42,15 @@ publish-staging:
 publish-production:
 	env S3_BUCKET=codex-zacynthius-transcription.cudl.lib.cam.ac.uk \
 			$(publish_cmd)
+
+build-docker-image:
+	docker image build \
+		-t camdl/codex-zacynthius-transcription:latest \
+		-t camdl/codex-zacynthius-transcription:$(docker_version_tag) \
+		.
+
+push-docker-image:
+	docker image push camdl/codex-zacynthius-transcription:$(docker_version_tag)
+	docker image push camdl/codex-zacynthius-transcription:latest
 
 .PHONY: clean build copy-html default
