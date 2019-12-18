@@ -20,12 +20,15 @@ template = """\
   <body>
     <div class="container mt-4">
       <div class="jumbotron">
-        <h1>Codex Zacynthius Transcription</h1>
+        <h1 xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Codex Zacynthius Transcription</h1>
         <p class="lead">
           This site hosts the Codex Zacynthius transcriptions used on the <a href="https://cudl.lib.cam.ac.uk">Cambridge Digital Library</a>.
         </p>
+        <p>
+          The HTML transcriptions are created by the <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.birmingham.ac.uk/research/activity/itsee/projects/codex-zacynthius.aspx" property="cc:attributionName" rel="cc:attributionURL">Codex Zacynthius project</a> and are licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        </p>
       </div>
-    
+
 {indexes}
     </div>
     <!-- Optional JavaScript -->
