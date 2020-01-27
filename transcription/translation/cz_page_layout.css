@@ -9,6 +9,14 @@
   background-color: oldlace;
 }
 
+#blank-page {
+  grid-column: 1/-1;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 300px;
+  background-color: white;
+}
+
 .col-full {
   grid-column: 1/-1;
   margin-left: 100px;
@@ -25,7 +33,7 @@
   margin-right: 50px;
   margin-left: 30px;
   width: 340px;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 5px;
   grid-column: 2/-1;
 }
@@ -33,7 +41,7 @@
 .col-left.biblical_text {
   margin-left: 130px;
   width: 310px;
-  font-size: 20px;
+  font-size: 16px;
   grid-column: 1/-2;
 }
 
@@ -80,11 +88,21 @@ span.coltop {
   width: 130px;
 }
 
-#P29v-CZ .col-left, #P30v-CZ .col-left, #P36v-CZ .col-left, #P37v-CZ .col-left,
+#P29v-CZ .col-left, #P36v-CZ .col-left, #P37v-CZ .col-left,
 #P38v-CZ .col-left  {
   width: 120px;
 }
 
+#P30v-CZ .col-left {
+  width: 80px;
+}
+
+
+#P30v-CZ .col-right.biblical_text {
+    width: 390px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 #P37v-CZ .col-right.biblical_text {
   width: 270px;
@@ -135,6 +153,10 @@ span.coltop {
 
  #P66v-CZ .col-full .rightjust,  #P75v-CZ .col-full .rightjust, #P88v-CZ .col-full .rightjust {
    width: 85%;
+ }
+
+ #P30v-CZ .col-right .rightjust {
+   width: 60%;
  }
 
 
@@ -220,6 +242,10 @@ span.coltop {
 
 #P64r-CZ .col-full .rightjust {
   width: 85%;
+}
+
+#P86r-CZ .col-left.biblical_text .rightjust{
+  width: 60%;
 }
 
 #P38r-CZ .col-left.biblical_text {

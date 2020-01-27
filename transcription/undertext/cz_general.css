@@ -27,6 +27,14 @@ body {
   display: none;
 }
 
+a:link, a:visited, a:active {
+  color: white;
+}
+
+a:hover {
+  color: Gainsboro;
+}
+
 .versenum {
   display: inline-block;
   vertical-align: super;
@@ -89,21 +97,24 @@ span.linebreak {
   font-size: 16px;
 }
 
+.chapternumber, .overline, .sectionnumber, .vaticannumber {
+  text-decoration: overline;
+}
+
 .chapternumber .rubric, .overline .rubric, .sectionnumber .rubric, .vaticannumber .rubric {
   text-decoration: overline;
   color: red;
 }
 
-.chapternumber, .overline, .sectionnumber, .vaticannumber {
-  text-decoration: overline;
-}
-
-.overline .supplied, .overline .illegible, .vaticannumber .supplied, .sectionnumber .supplied, .chapternumber .supplied {
+.overline .supplied, .overline .illegible, .overline .lacuna, .overline .gutter,
+.vaticannumber .supplied, .vaticannumber .illegible, .vaticannumber .lacuna, .vaticannumber .gutter,
+.sectionnumber .supplied, .sectionnumber .illegible, .sectionnumber .lacuna, .sectionnumber .gutter,
+.chapternumber .supplied, .chapternumber .illegible, .chapternumber .lacuna, .chapternumber .gutter {
     text-decoration: overline;
     color: grey;
 }
 
-.illegible, .supplied, .unclear {
+.illegible, .supplied, .unclear, .lacuna, .gutter {
   color: grey;
 }
 
@@ -111,8 +122,17 @@ span.linebreak {
   color: red;
 }
 
+.rubric .illegible, .rubric .supplied, .rubric .unclear, .rubric .lacuna, .rubric .gutter {
+  color: darksalmon;
+}
+
 .original {
   color: blue;
+}
+
+.original > .illegible, .original > .supplied, .original > .unclear,
+.original > .lacuna, .original > .gutter {
+  color: cornflowerblue;
 }
 
 span.editorial-note {

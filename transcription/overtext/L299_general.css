@@ -148,7 +148,7 @@ span.margin-pagetop-right.pagenumber.pencil {
   margin-right: -40px;
 }
 
-.recto span.margin-pageright.center {
+.recto span.margin-pageright.center, .recto span.margin-pageright {
   width: 100px;
   float: right;
   margin-right: -50px;
@@ -194,13 +194,12 @@ span.linebreak {
 }
 
 .hang {
-  margin-left: -10px;
+  margin-left: -25px;
 }
 
 .above {
   vertical-align: super;
 }
-
 
 
 .cap {
@@ -230,8 +229,17 @@ span.linebreak {
   color: red;
 }
 
+.rubric .illegible, .rubric .supplied, .rubric .unclear, .rubric .lacuna, .rubric .gutter {
+  color: darksalmon;
+}
+
 .original {
   color: blue;
+}
+
+.original > .illegible, .original > .supplied, .original > .unclear,
+.original > .lacuna, .original > .gutter {
+  color: cornflowerblue;
 }
 
 .right {
