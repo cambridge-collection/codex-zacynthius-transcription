@@ -1,4 +1,9 @@
 @font-face {
+  font-family: Decker;
+  src: url(GFSDecker.otf);
+}
+
+@font-face {
   font-family: Gentium;
   src: url(GentiumPlus-R.ttf);
 }
@@ -10,11 +15,11 @@
 
 body {
   font-family: Gentium;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .coltop {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -22,10 +27,18 @@ body {
   display: none;
 }
 
+a:link, a:visited, a:active {
+  color: white;
+}
+
+a:hover {
+  color: Gainsboro;
+}
+
 .versenum {
   display: inline-block;
   vertical-align: super;
-  font-size: 0.6em;
+  font-size: 0.8em;
   font-family: Gentium;
   margin-left: 3px;
 
@@ -44,7 +57,7 @@ body {
 
 span.pageleft {
   position: absolute;
-  left: 20px;
+  left: 16px;
   line-height: 0.9em;
 }
 
@@ -80,8 +93,12 @@ span.linebreak {
   font-size: 30px;
 }
 
-.biblical_text .sectionnumber, .biblical_text .chapternumber {
-  font-size: 16px;
+.biblical_text .sectionnumber, .biblical_text .chapternumber, .biblical_text .vaticannumber {
+  font-size: 14px;
+}
+
+.chapternumber, .overline, .sectionnumber, .vaticannumber {
+  text-decoration: overline;
 }
 
 .chapternumber .rubric, .overline .rubric, .sectionnumber .rubric, .vaticannumber .rubric {
@@ -89,16 +106,15 @@ span.linebreak {
   color: red;
 }
 
-.chapternumber, .overline, .sectionnumber, .vaticannumber {
-  text-decoration: overline;
-}
-
-.overline .supplied, .overline .illegible, .vaticannumber .supplied, .sectionnumber .supplied, .chapternumber .supplied {
+.overline .supplied, .overline .illegible, .overline .lacuna, .overline .gutter,
+.vaticannumber .supplied, .vaticannumber .illegible, .vaticannumber .lacuna, .vaticannumber .gutter,
+.sectionnumber .supplied, .sectionnumber .illegible, .sectionnumber .lacuna, .sectionnumber .gutter,
+.chapternumber .supplied, .chapternumber .illegible, .chapternumber .lacuna, .chapternumber .gutter {
     text-decoration: overline;
     color: grey;
 }
 
-.illegible, .supplied, .unclear {
+.illegible, .supplied, .unclear, .lacuna, .gutter {
   color: grey;
 }
 
@@ -106,8 +122,17 @@ span.linebreak {
   color: red;
 }
 
+.rubric .illegible, .rubric .supplied, .rubric .unclear, .rubric .lacuna, .rubric .gutter {
+  color: darksalmon;
+}
+
 .original {
   color: blue;
+}
+
+.original > .illegible, .original > .supplied, .original > .unclear,
+.original > .lacuna, .original > .gutter {
+  color: cornflowerblue;
 }
 
 span.editorial-note {
@@ -135,5 +160,5 @@ span.tooltip-en {
 }
 
 span.tooltip-el {
-  font-family: Decker;
+  font-family: Gentium;
 }

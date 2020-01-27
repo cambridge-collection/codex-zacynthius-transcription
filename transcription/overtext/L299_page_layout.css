@@ -13,7 +13,7 @@
 }
 
 
-#P3v span.displaced-below.rightjust, #P6v span.displaced-below.rightjust,
+#P3v span.displaced-below.rightjust, #P4v span.displaced-below.rightjust,  #P6v span.displaced-below.rightjust,
 #P28r span.displaced-below.rightjust, #P29r span.displaced-below.rightjust,
 #P106v span.displaced-below.rightjust, #P118v span.displaced-below.rightjust,
 #P163r span.displaced-below.rightjust {
@@ -113,6 +113,7 @@
   margin-left: -35px;
 }
 
+#P5v span.margin-pagetop.center, #P6v span.margin-pagetop.center, 
 #P17v span.margin-pagetop.center, #P117v span.margin-pagetop.center {
   width: 50%;
 }
@@ -226,7 +227,7 @@
 #P4v.page, #P5v.page, #P6v.page, #P9v.page, #P17v.page, #P43v.page, #P46v.page,
 #P48v.page, #P52v.page, #P56v.page, #P63v.page, #P70v.page, #P76v.page, #P77v.page,
 #P81v.page, #P84v.page, #P86v.page, #P105v.page, #P110v.page, #P114v.page,
-#P117v.page, #P133v.page, #P144v.page, #P145v.page, #P146v.page, #P148v.page,
+#P117v.page, #P133v.page, #P144v.page, #P145v.page, #P148v.page,
 #P149v.page, #P150v.page, #P151v.page, #P158v.page, #P161v.page, #P163v.page,
 #P165v.page, #P166v.page, #P167v.page, #P168v.page, #P171v.page, #P174v.page,
 #P175v.page, #P176v.page {
@@ -234,12 +235,13 @@
   padding-left: 100px;
 }
 
+
 #P56v.page, #P152v.page, #P153v.page, #P154v.page, #P172v.page {
   width: 520px;
   padding-left: 100px;
 }
 
-#P104v.page, #P159v.page {
+#P104v.page, #P159v.page, #P146v.page,  {
   width: 500px;
   padding-left: 150px;
 }
