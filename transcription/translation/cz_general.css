@@ -15,7 +15,7 @@
 
 body {
   font-family: Gentium;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .coltop {
@@ -97,26 +97,6 @@ span.linebreak {
   font-size: 14px;
 }
 
-.chapternumber, .overline, .sectionnumber, .vaticannumber {
-  text-decoration: overline;
-}
-
-.chapternumber .rubric, .overline .rubric, .sectionnumber .rubric, .vaticannumber .rubric {
-  text-decoration: overline;
-  color: red;
-}
-
-.overline .supplied, .overline .illegible, .overline .lacuna, .overline .gutter,
-.vaticannumber .supplied, .vaticannumber .illegible, .vaticannumber .lacuna, .vaticannumber .gutter,
-.sectionnumber .supplied, .sectionnumber .illegible, .sectionnumber .lacuna, .sectionnumber .gutter,
-.chapternumber .supplied, .chapternumber .illegible, .chapternumber .lacuna, .chapternumber .gutter {
-    text-decoration: overline;
-    color: grey;
-}
-
-.illegible, .supplied, .unclear, .lacuna, .gutter {
-  color: grey;
-}
 
 .rubric {
   color: red;
@@ -147,8 +127,9 @@ span.comment_source {
   color: green;
 }
 
-span.general-abbreviation-marker, span.pagenumber {
+span.pagenumber {
   font-family: Gentium;
+  font-size: 16px;
 }
 
 .tooltipster-default .tooltipster-content {

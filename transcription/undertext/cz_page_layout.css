@@ -128,7 +128,7 @@ span.coltop {
 }
 
 #P82v-CZ .col-left {
-  width: 243px;
+  width: 245px;
 }
 
 #P66v-CZ .col-left {
@@ -140,13 +140,13 @@ span.coltop {
   width: 150px;
 }
 
-#P25v-CZ .col-left, #P40v-CZ .col-left {
+#P25v-CZ .col-left, #P40v-CZ .col-left, #P65v-CZ .col-left {
     width: 140px;
 }
 
 #P10v-CZ .col-left, #P14v-CZ .col-left, #P15v-CZ .col-left, #P16v-CZ .col-left,
 #P41v-CZ .col-left,
-#P46v-CZ .col-left, #P47v-CZ .col-left, #P65v-CZ .col-left {
+#P46v-CZ .col-left, #P47v-CZ .col-left {
   width: 130px;
 }
 
@@ -276,12 +276,13 @@ span.coltop {
 #P8v-CZ span.pageright {
   position: absolute;
   left: 600px;
+  margin-top: 110px;
 }
 
 /* recto changes */
 #P83r-CZ span.lineright, #P84r-CZ span.lineright, #P85r-CZ span.lineright,
 #P86r-CZ span.lineright, #P87r-CZ span.lineright, #P88r-CZ span.lineright,
-#P89r-CZ span.lineright {
+#P89r-CZ span.lineright, #P38r-CZ span.lineright  {
   left: 630px;
 }
 
@@ -310,7 +311,7 @@ span.coltop {
   margin-right: 10px;
 }
 
-#P74r-CZ .col-right {
+#P74r-CZ .col-right, #P20r-CZ .col-right {
   width: 190px;
   margin-right: 0px;
 }
@@ -336,7 +337,7 @@ span.coltop {
 }
 
 #P10r-CZ .col-right .centrejust, #P13r-CZ .col-right .centrejust, #P14r-CZ .col-right .centrejust, #P16r-CZ .col-right .centrejust,
-#P46r-CZ .col-right .centrejust, #P58r-CZ .col-right .centrejust  {
+#P46r-CZ .col-right .centrejust, #P58r-CZ .col-right .centrejust, #P68r-CZ .col-right .centrejust  {
   width: 70%;
 }
 
@@ -345,6 +346,10 @@ span.coltop {
 }
 
 #P4r-CZ .centerjust, #P56r-CZ .centerjust, #P67r-CZ .centerjust, #P88r-CZ .centerjust {
+  width: 60%;
+}
+
+#P50r-CZ .centrejust {
   width: 60%;
 }
 
@@ -375,7 +380,7 @@ span.coltop {
   width: 300px;
 }
 
-#P14r-CZ .col-left.biblical_text, #P19r-CZ .col-left.biblical_text, #P26r-CZ .col-left.biblical_text, #P31r-CZ .col-left.biblical_text,
+#P14r-CZ .col-left.biblical_text, #P19r-CZ .col-left.biblical_text, #P20r-CZ .col-left.biblical_text, #P26r-CZ .col-left.biblical_text, #P31r-CZ .col-left.biblical_text,
 #P46r-CZ .col-left.biblical_text, #P47r-CZ .col-left.biblical_text, #P50r-CZ .col-left.biblical_text,
 #P57r-CZ .col-left.biblical_text {
   width: 290px;
@@ -389,6 +394,7 @@ span.coltop {
 }
 
 #P28r-CZ .col-left.biblical_text, #P30r-CZ .col-left.biblical_text, #P36r-CZ .col-left.biblical_text,
+#P43r-CZ .col-left.biblical_text,
 #P45r-CZ .col-left.biblical_text, #P56r-CZ .col-left.biblical_text,
 #P62r-CZ .col-left.biblical_text, #P64r-CZ .col-left.biblical_text {
   width: 270px;
@@ -397,7 +403,7 @@ span.coltop {
 #P16r-CZ .col-left.biblical_text, #P24r-CZ .col-left.biblical_text, #P25r-CZ .col-left.biblical_text,
 #P27r-CZ .col-left.biblical_text, #P29r-CZ .col-left.biblical_text, #P32r-CZ .col-left.biblical_text,
 #P33r-CZ .col-left.biblical_text, #P35r-CZ .col-left.biblical_text, #P37r-CZ .col-left.biblical_text,
-#P40r-CZ .col-left.biblical_text, #P43r-CZ .col-left.biblical_text, #P59r-CZ .col-left.biblical_text,
+#P40r-CZ .col-left.biblical_text, #P59r-CZ .col-left.biblical_text,
 #P63r-CZ .col-left.biblical_text, #P69r-CZ .col-left.biblical_text   {
   width: 260px;
 }
@@ -447,6 +453,11 @@ span.coltop {
 #P89r-CZ .col-right  {
   margin-left: -50px;
 }
+
+#P72r-CZ .col-right {
+  width: 200px;
+}
+
 
 #P79r-CZ .col-right {
   width: 220px;

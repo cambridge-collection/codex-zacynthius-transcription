@@ -51,7 +51,7 @@
   grid-column: 2/-1;
 }
 
-.centrejust {
+.centrejust, .centerjust {
   display: inline-block;
   text-align: center;
   width: 90%;
@@ -76,21 +76,111 @@ span.coltop {
 
 /* verso changes */
 
+#P1v-CZ .col-full {
+  margin-right: 0px;
+  margin-left: 50px;
+}
+
+#P1v-CZ table {
+  width: 100%;
+}
+
+
+#P3v-CZ .col-full {
+  margin-left: 80px;
+  margin-right: 0px;
+}
+
+#P3v-CZ .col-left {
+  margin-left: 80px;
+}
+
+#P4v-CZ .col-left, #P4v-CZ .col-full {
+  margin-left: 70px;
+}
+
+#P44v-CZ .col-full, #P44v-CZ .col-left {
+  margin-left: 70px;
+}
+
+#P82v-CZ .col-full, #P82v-CZ .col-left {
+  margin-left: 50px;
+}
+
+#P87v-CZ .col-full, #P87v-CZ .col-left {
+  margin-left: 80px;
+  margin-right: 25px;
+}
+
+
+#P83v-CZ .col-full, #P83v-CZ .col-left, #P84v-CZ .col-full, #P84v-CZ .col-left {
+  margin-left: 60px;
+}
+
+
+
+#P82v-CZ .col-left {
+  width: 230px;
+}
+
+#P44v-CZ .col-full {
+  width: 630px;
+}
+
+#P44v-CZ .biblical_text {
+  margin-left: -40px;
+}
+
+#P4v-CZ .col-left {
+  width: 210px;
+}
+
+#P5v-CZ .col-left, #P5v-CZ .col-full {
+  margin-left: 50px;
+}
+
+#P5v-CZ .col-full {
+  width: 670px;
+}
+
+#P5v-CZ .col-left {
+  width: 220px;
+}
+
+#P5v-CZ .col-right .centerjust {
+  width: 50%;
+}
+
+#P28v-CZ .col-left, #P28v-CZ .col-full {
+  margin-left: 50px;
+}
+
+#P28v-CZ .col-left {
+  width: 170px;
+}
+
+#P28v-CZ .col-right.biblical_text {
+  width: 370px;
+}
+
 /* narrow left column */
 #P6v-CZ .col-left .centrejust {
   width: 50%;
 }
 
 /* narrow left column and wider biblical */
-#P10v-CZ .col-left, #P14v-CZ .col-left, #P15v-CZ .col-left, #P16v-CZ .col-left, #P25v-CZ .col-left,
-#P40v-CZ .col-left, #P41v-CZ .col-left,
-#P46v-CZ .col-left, #P47v-CZ .col-left, #P54v-CZ .col-left, #P65v-CZ .col-left {
+#P10v-CZ .col-left, #P25v-CZ .col-left, #P29v-CZ .col-left, #P41v-CZ .col-left,
+#P46v-CZ .col-left, #P54v-CZ .col-left {
   width: 130px;
 }
 
-#P29v-CZ .col-left, #P36v-CZ .col-left, #P37v-CZ .col-left,
+#P36v-CZ .col-left, #P37v-CZ .col-left,
 #P38v-CZ .col-left  {
   width: 120px;
+}
+
+#P65v-CZ .col-left {
+  width: 140px;
 }
 
 #P30v-CZ .col-left {
@@ -108,39 +198,47 @@ span.coltop {
   width: 270px;
 }
 
-#P14v-CZ .col-right.biblical_text, #P15v-CZ .col-right.biblical_text, #P19v-CZ .col-right.biblical_text, #P20v-CZ .col-right.biblical_text,
-#P22v-CZ .col-right.biblical_text, #P28v-CZ .col-right.biblical_text, #P36v-CZ .col-right.biblical_text,
+#P14v-CZ .col-right.biblical_text, #P19v-CZ .col-right.biblical_text,
+#P22v-CZ .col-right.biblical_text, #P36v-CZ .col-right.biblical_text,
 #P37v-CZ .col-right.biblical_text, #P38v-CZ .col-right.biblical_text,
 #P39v-CZ .col-right.biblical_text, #P42v-CZ .col-right.biblical_text, #P49v-CZ .col-right.biblical_text, #P51v-CZ .col-right.biblical_text,
-#P53v-CZ .col-right.biblical_text, #P54v-CZ .col-right.biblical_text, #P66v-CZ .col-right.biblical_text, #P67v-CZ .col-right.biblical_text,
-#P78v-CZ .col-right.biblical_text{
+#P53v-CZ .col-right.biblical_text, #P54v-CZ .col-right.biblical_text, #P66v-CZ .col-right.biblical_text,
+#P67v-CZ .col-right.biblical_text {
   margin-left: 0px;
 }
 
 
 
-#P12v-CZ .col-left,  #P18v-CZ .col-left , #P19v-CZ .col-left,  #P20v-CZ .col-left, #P22v-CZ .col-left, #P23v-CZ .col-left, #P26v-CZ .col-left,
-#P27v-CZ .col-left, #P28v-CZ .col-left, #P31v-CZ .col-left, #P32v-CZ .col-left, #P33v-CZ .col-left, #P34v-CZ .col-left, #P35v-CZ .col-left,
+#P12v-CZ .col-left, #P19v-CZ .col-left, #P22v-CZ .col-left, #P23v-CZ .col-left,
+#P27v-CZ .col-left, #P31v-CZ .col-left, #P33v-CZ .col-left, #P34v-CZ .col-left, #P35v-CZ .col-left,
 #P39v-CZ .col-left, #P44v-CZ .col-left, #P45v-CZ .col-left,
 #P48v-CZ .col-left, #P50v-CZ .col-left, #P52v-CZ .col-left, #P53v-CZ .col-left, #P55v-CZ .col-left, #P56v-CZ .col-left, #P57v-CZ .col-left,
 #P58v-CZ .col-left, #P59v-CZ .col-left, #P61v-CZ .col-left, #P62v-CZ .col-left,
-#P63v-CZ .col-left, #P64v-CZ .col-left, #P67v-CZ .col-left, #P68v-CZ .col-left, #P69v-CZ .col-left, #P70v-CZ .col-left, #P71v-CZ .col-left, #P73v-CZ .col-left,
+#P63v-CZ .col-left, #P67v-CZ .col-left, #P69v-CZ .col-left, #P70v-CZ .col-left, #P71v-CZ .col-left,
 #P84v-CZ .col-left, #P85v-CZ .col-left, #P87v-CZ .col-left, #P89v-CZ .col-left    {
   width: 150px;
 }
 
-#P24v-CZ .col-left, #P77v-CZ .col-left {
+#P24v-CZ .col-left, #P77v-CZ .col-left, #P18v-CZ .col-left, #P32v-CZ .col-left {
   width: 160px;
+}
+
+#P73v-CZ .col-left {
+  width: 180px;
+}
+
+#P78v-CZ .col-left {
+  width: 200px;
 }
 
 /* narrow full column  */
 #P11v-CZ .col-full .centrejust, #P20v-CZ .col-full .centrejust, #P22v-CZ .col-full .centrejust, #P23v-CZ .col-full .centrejust,
-#P24v-CZ .col-full .centrejust, #P26v-CZ .col-full .centrejust, #P33v-CZ .col-full .centrejust, #P35v-CZ .col-full .centrejust,
+#P24v-CZ .col-full .centrejust, #P33v-CZ .col-full .centrejust, #P35v-CZ .col-full .centrejust,
 #P36v-CZ .col-full .centrejust, #P38v-CZ .col-full .centrejust,
 #P39v-CZ .col-full .centrejust, #P40v-CZ .col-full .centrejust, #P45v-CZ .col-full .centrejust, #P47v-CZ .col-full .centrejust,
 #P50v-CZ .col-full .centrejust, #P52v-CZ .col-full .centrejust, #P53v-CZ .col-full .centrejust,
 #P54v-CZ .col-full .centrejust, #P55v-CZ .col-full .centrejust, #P58v-CZ .col-full .centrejust, #P63v-CZ .col-full .centrejust,
-#P65v-CZ .col-full .centrejust, #P67v-CZ .col-full .centrejust, #P69v-CZ .col-full .centrejust, #P72v-CZ .col-full .centrejust,
+#P67v-CZ .col-full .centrejust, #P69v-CZ .col-full .centrejust, #P72v-CZ .col-full .centrejust,
 #P73v-CZ .col-full .centrejust, #P80v-CZ .col-full .centrejust, #P85v-CZ .col-full .centrejust {
   width: 80%;
 }
@@ -151,25 +249,53 @@ span.coltop {
    width: 85%;
  }
 
+ #P65v-CZ .biblical_text .centerjust {
+   width: 60%;
+ }
+
+ #P69r-CZ .biblical_text .centerjust {
+   width: 60%;
+ }
+
  #P66v-CZ .col-full .rightjust,  #P75v-CZ .col-full .rightjust, #P88v-CZ .col-full .rightjust {
    width: 85%;
  }
 
- #P30v-CZ .col-right .rightjust {
+ #P30v-CZ .col-right .rightjust,  #P47v-CZ .col-right .rightjust {
    width: 60%;
  }
 
-
- #P73v-CZ span.pagetop, #P85v-CZ span.pagetop {
-   width: 80%;
+ #P87v-CZ .biblical_text .centerjust {
+   width: 50%;
  }
 
-#P48v-CZ span.pagetop, #P88v-CZ span.pagetop {
-  width: 85%;
+ #P37v-CZ .col-full, #P46v-CZ .col-full {
+   margin-right: 40px;
+ }
+
+
+ #P32v-CZ span.pagetop {
+   width: 50%;
+ }
+
+#P85v-CZ span.pagetop {
+   width: 52%;
+ }
+
+#P73v-CZ span.pagetop {
+  width: 96%;
+}
+
+#P88v-CZ span.pagetop {
+  width: 50%;
+}
+
+#P48v-CZ span.pagetop {
+  width: 100%;
 }
 
 #P66v-CZ span.pagetop {
-  width: 80%;
+  width: 53%;
   text-align: left;
 }
 
@@ -189,27 +315,155 @@ span.coltop {
   margin-left: -90px;
 }
 
+#P13v-CZ .col-full, #P13v-CZ .col-left {
+  margin-left: 80px
+}
+
+#P13v-CZ .col-left {
+  width: 200px;
+}
+
+#P81v-CZ .col-left {
+  width: 210px;
+}
+
+#P38v-CZ .col-right.biblical_text .centerjust {
+  width: 60%;
+}
+
+#P8v-CZ .col-right {
+  margin-left: 7px;
+}
+
+#P8v-CZ span.pageright {
+  position: absolute;
+  left: 600px;
+  margin-top: 110px;
+}
 
 /* recto changes */
+#P83r-CZ span.lineright, #P84r-CZ span.lineright, #P85r-CZ span.lineright,
+#P86r-CZ span.lineright, #P87r-CZ span.lineright, #P88r-CZ span.lineright,
+#P89r-CZ span.lineright, #P38r-CZ span.lineright {
+  left: 630px;
+}
 
-#P30r-CZ span.pagetop {
+#P2r-CZ .col-full {
+  margin-right: 0px;
+  margin-left: 50px;
+}
+
+#P2r-CZ table {
+  width: 100%;
+}
+
+#P3r-CZ .col-full, #P5r-CZ .col-full {
+  margin-left: 80px;
+}
+
+#P3r-CZ .biblical_text .centerjust {
+  width: 65%;
+}
+
+#P4r-CZ .col-full {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+#P4r-CZ .biblical_text {
   width: 80%;
 }
 
-#P26r-CZ span.pagetop, #P86r-CZ span.pagetop {
+#P4r-CZ .col-right {
+  margin-left: 60px;
+  width: 210px;
+}
+
+#P6r-CZ .col-full, #P9r-CZ .col-full, #P10r-CZ .col-full, #P12r-CZ .col-full, #P15r-CZ .col-full,
+#P19r-CZ .col-full, #P31r-CZ .col-full, #P36r-CZ .col-full  {
+  margin-left: 50px;
+}
+
+#P6r-CZ .col-left.biblical_text {
+  margin-left: 80px;
+  width: 290px;
+}
+
+#P8r-CZ .col-full {
+  margin-left: 45px;
+  width: 630px;
+}
+
+#P8r-CZ .col-left.biblical_text, #P9r-CZ .col-left.biblical_text, #P12r-CZ .col-left.biblical_text,
+#P15r-CZ .col-left.biblical_text, #P19r-CZ .col-left.biblical_text, #P31r-CZ .col-left.biblical_text,
+#P36r-CZ .col-left.biblical_text {
+  margin-left: 80px;
+}
+
+#P9r-CZ .col-left.biblical_text {
+  width: 250px;
+}
+
+#P10r-CZ .col-left.biblical_text {
+  margin-left: 80px;
+  width: 310px;
+}
+
+#P12r-CZ .col-left.biblical_text {
+  width: 250px;
+}
+
+#P12r-CZ .col-right, #P13r-CZ .col-right {
+  width: 230px;
+  margin-right: 20px;
+}
+
+#P30r-CZ span.pagetop {
+  width: 70%;
+}
+
+#P26r-CZ span.pagetop {
   width: 85%;
+}
+
+#P86r-CZ span.pagetop {
+  width: 25%;
+}
+
+#P88r-CZ span.pagetop {
+  width: 100%;
+}
+
+#P50r-CZ .col-full {
+  margin-right: 40px;
+}
+
+#P87r-CZ .col-full {
+  margin-right: 25px;
+}
+
+#P4r-CZ .centerjust {
+  width: 70%;
+}
+
+#P56r-CZ .centerjust, #P67r-CZ .centerjust, #P88r-CZ .centerjust {
+  width: 60%;
+}
+
+#P50r-CZ .centrejust {
+  width: 60%;
 }
 
 #P11r-CZ .col-full .centrejust, #P14r-CZ .col-full .centrejust, #P21r-CZ .col-full .centrejust,
 #P26r-CZ .col-full .centrejust, #P33r-CZ .col-full .centrejust, #P34r-CZ .col-full .centrejust,
-#P36r-CZ .col-full .centrejust, #P39r-CZ .col-full .centrejust, #P45r-CZ .col-full .centrejust,
-#P56r-CZ .col-full .centrejust, #P75r-CZ .col-full .centrejust, #P76r-CZ .col-full .centrejust,
+#P39r-CZ .col-full .centrejust, #P45r-CZ .col-full .centrejust,
+#P56r-CZ .col-full .centrejust, #P76r-CZ .col-full .centrejust,
 #P77r-CZ .col-full .centrejust, #P78r-CZ .col-full .centrejust, #P80r-CZ .col-full .centrejust,
 #P86r-CZ .col-full .centrejust  {
   width: 85%;
 }
 
-#P13r-CZ .col-full .centrejust, #P15r-CZ .col-full .centrejust, #P18r-CZ .col-full .centrejust,
+#P13r-CZ .col-full .centrejust, #P18r-CZ .col-full .centrejust,
 #P22r-CZ .col-full .centrejust, #P30r-CZ .col-full .centrejust, #P37r-CZ .col-full .centrejust,
 #P38r-CZ .col-full .centrejust, #P41r-CZ .col-full .centrejust, #P48r-CZ .col-full .centrejust,
 #P49r-CZ .col-full .centrejust, #P53r-CZ .col-full .centrejust, #P89r-CZ .col-full .centrejust {
@@ -221,7 +475,8 @@ span.coltop {
 }
 
 #P10r-CZ .col-right .centrejust, #P13r-CZ .col-right .centrejust, #P14r-CZ .col-right .centrejust, #P16r-CZ .col-right .centrejust,
-#P24r-CZ .col-right .centrejust, #P46r-CZ .col-right .centrejust, #P58r-CZ .col-right .centrejust  {
+#P24r-CZ .col-right .centrejust, #P46r-CZ .col-right .centrejust, #P58r-CZ .col-right .centrejust, #P68r-CZ .col-right .centrejust,
+#P75r-CZ .col-full .centrejust  {
   width: 70%;
 }
 
@@ -229,13 +484,21 @@ span.coltop {
   width: 60%;
 }
 
-#P70r-CZ .col-full .rightjust {
+#P22r-CZ .col-full .rightjust, #P70r-CZ .col-full .rightjust {
   width: 90%;
 }
 
+#P75r-CZ span.coltop {
+  width: 70%;
+}
 
-#P16r-CZ .col-full .rightjust,  #P22r-CZ .col-full .rightjust, #P30r-CZ .col-full .rightjust,
-#P49r-CZ .col-full .rightjust {
+
+#P76r-CZ .col-right .centrejust {
+  width: 65%;
+}
+
+#P16r-CZ .col-full .rightjust,  #P30r-CZ .col-full .rightjust,
+#P49r-CZ .col-full .rightjust, #P66r-CZ .col-full .rightjust {
   width: 80%;
 }
 
@@ -245,40 +508,42 @@ span.coltop {
 }
 
 #P86r-CZ .col-left.biblical_text .rightjust{
-  width: 60%;
+  width: 50%;
 }
 
 #P38r-CZ .col-left.biblical_text {
   width: 300px;
 }
 
-#P19r-CZ .col-left.biblical_text, #P26r-CZ .col-left.biblical_text, #P31r-CZ .col-left.biblical_text,
+#P19r-CZ .col-left.biblical_text, #P20r-CZ .col-left.biblical_text,  #P26r-CZ .col-left.biblical_text,
+#P29r-CZ .col-left.biblical_text,
 #P46r-CZ .col-left.biblical_text, #P47r-CZ .col-left.biblical_text, #P50r-CZ .col-left.biblical_text,
 #P57r-CZ .col-left.biblical_text {
   width: 290px;
 }
 
-#P13r-CZ .col-left.biblical_text, #P14r-CZ .col-left.biblical_text, #P15r-CZ .col-left.biblical_text,
+#P13r-CZ .col-left.biblical_text, #P14r-CZ .col-left.biblical_text,
 #P21r-CZ .col-left.biblical_text, #P23r-CZ .col-left.biblical_text, #P41r-CZ .col-left.biblical_text,
-#P42r-CZ .col-left.biblical_text, #P66r-CZ .col-left.biblical_text, #P67r-CZ .col-left.biblical_text,
+#P42r-CZ .col-left.biblical_text, #P67r-CZ .col-left.biblical_text,
 #P87r-CZ .col-left.biblical_text    {
   width: 280px;
 }
 
-#P28r-CZ .col-left.biblical_text, #P30r-CZ .col-left.biblical_text, #P36r-CZ .col-left.biblical_text,
+#P28r-CZ .col-left.biblical_text, #P30r-CZ .col-left.biblical_text,
 #P45r-CZ .col-left.biblical_text, #P55r-CZ .col-left.biblical_text, #P56r-CZ .col-left.biblical_text,
 #P62r-CZ .col-left.biblical_text, #P64r-CZ .col-left.biblical_text {
   width: 270px;
 }
 
-#P16r-CZ .col-left.biblical_text, #P24r-CZ .col-left.biblical_text, #P25r-CZ .col-left.biblical_text,
-#P27r-CZ .col-left.biblical_text, #P29r-CZ .col-left.biblical_text, #P32r-CZ .col-left.biblical_text,
-#P33r-CZ .col-left.biblical_text, #P35r-CZ .col-left.biblical_text, #P37r-CZ .col-left.biblical_text,
+#P24r-CZ .col-left.biblical_text, #P25r-CZ .col-left.biblical_text,
+#P27r-CZ .col-left.biblical_text, #P32r-CZ .col-left.biblical_text,
+#P33r-CZ .col-left.biblical_text, #P37r-CZ .col-left.biblical_text,
 #P40r-CZ .col-left.biblical_text, #P43r-CZ .col-left.biblical_text, #P59r-CZ .col-left.biblical_text,
-#P63r-CZ .col-left.biblical_text, #P69r-CZ .col-left.biblical_text   {
+#P63r-CZ .col-left.biblical_text, #P66r-CZ .col-left.biblical_text,   {
   width: 260px;
 }
 
+#P35r-CZ .col-left.biblical_text,
 #P49r-CZ .col-left.biblical_text, #P51r-CZ .col-left.biblical_text, #P53r-CZ .col-left.biblical_text,
 #P54r-CZ .col-left.biblical_text, #P86r-CZ .col-left.biblical_text  {
   width: 250px;
@@ -288,6 +553,7 @@ span.coltop {
 #P58r-CZ .col-left.biblical_text, #P60r-CZ .col-left.biblical_text, #P78r-CZ .col-left.biblical_text  {
    width: 240px;
 }
+
 
 #P17r-CZ .col-left.biblical_text, #P22r-CZ .col-left.biblical_text, #P34r-CZ .col-left.biblical_text,
 #P71r-CZ .col-left.biblical_text, #P75r-CZ .col-left.biblical_text, #P77r-CZ .col-left.biblical_text,
@@ -302,28 +568,57 @@ span.coltop {
    width: 220px;
 }
 
+#P72r-CZ .col-right {
+  width: 200px;
+}
+
+#P74r-CZ .col-right {
+  width: 240px;
+  margin-right: 0px;
+  margin-left: -30px;
+}
 
 #P10r-CZ .col-right,  {
   margin-left: 15px;
 }
 
-#P15r-CZ .col-right, #P16r-CZ .col-right, #P24r-CZ .col-right, #P26r-CZ .col-right,
-#P33r-CZ .col-right, #P39r-CZ .col-right, #P41r-CZ .col-right, #P45r-CZ .col-right,
+#P79r-CZ .col-right {
+  margin-left: 80px;
+}
+
+#P24r-CZ .col-right, #P39r-CZ .col-right, #P45r-CZ .col-right,
 #P48r-CZ .col-right, #P49r-CZ .col-right, #P60r-CZ .col-right, #P64r-CZ .col-right,
-#P66r-CZ .col-right, #P69r-CZ .col-right, #P74r-CZ .col-right, #P75r-CZ .col-right,
-#P79r-CZ .col-right, #P82r-CZ .col-right  {
+#P75r-CZ .col-right, #P82r-CZ .col-right  {
   margin-left: -30px;
 }
 
-#P38r-CZ .col-right {
+#P38r-CZ .col-right, #P35r-CZ .col-right {
   margin-left: -40px;
 }
 
-#P18r-CZ .col-right, #P19r-CZ .col-right, #P22r-CZ .col-right, #P30r-CZ .col-right,
+#P18r-CZ .col-right, #P19r-CZ .col-right, #P30r-CZ .col-right,
+#P41r-CZ .col-right, #P66r-CZ .col-right,
 #P53r-CZ .col-right, #P54r-CZ .col-right, #P72r-CZ .col-right, #P73r-CZ .col-right,
 #P77r-CZ .col-right, #P78r-CZ .col-right, #P80r-CZ .col-right, #P83r-CZ .col-right,
 #P89r-CZ .col-right   {
   margin-left: -50px;
+}
+
+#P26r-CZ .col-right, #P33r-CZ .col-right {
+  margin-left: -70px;
+}
+
+#P20r-CZ .col-right, #P22r-CZ .col-right {
+  margin-left: -100px;
+}
+
+#P59r-CZ .col-right {
+  margin-left: -110px;
+}
+
+
+#P77r-CZ .col-right {
+  width: 195px;
 }
 
 #P17r-CZ span.coltop {
@@ -338,4 +633,9 @@ span.coltop {
 #P24r-CZ span.coltop, #P51r-CZ span.coltop, #P63r-CZ span.coltop  {
   margin-left: -20px;
   width: 280px;
+}
+
+#P70r-CZ span.pagetop {
+  font-size: 16px;
+  width: 80%;
 }
